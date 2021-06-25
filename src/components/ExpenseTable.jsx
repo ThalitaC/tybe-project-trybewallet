@@ -59,12 +59,6 @@ class ExpenseTable extends React.Component {
             <td>Real</td>
             <td>
               <button
-                className="table-edit-bttn"
-                type="button"
-              >
-                Editar
-              </button>
-              <button
                 data-testid="delete-btn"
                 className="table-delete-bttn"
                 type="button"
