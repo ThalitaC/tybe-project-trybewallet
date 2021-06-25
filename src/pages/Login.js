@@ -54,7 +54,7 @@ class Login extends React.Component {
                 type="password"
                 name="password"
                 value={ password }
-                placeholder="Password"
+                placeholder="Password(min 6 digits)"
                 onChange={ this.handleChange }
               />
             </label>
